@@ -205,6 +205,7 @@ __ESTREE_TEST__:AST:
         "start": 12,
         "end": 13
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./b",

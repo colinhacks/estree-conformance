@@ -167,6 +167,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "file1",
@@ -375,6 +376,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "file1",
@@ -583,6 +585,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "file2",
@@ -599,6 +602,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "file3",
@@ -777,6 +781,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "file4",

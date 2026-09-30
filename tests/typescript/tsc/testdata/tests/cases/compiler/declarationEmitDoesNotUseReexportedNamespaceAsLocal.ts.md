@@ -176,6 +176,7 @@ __ESTREE_TEST__:AST:
         "start": 51,
         "end": 52
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./sub",

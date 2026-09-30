@@ -66,7 +66,14 @@
   "DoWhileStatement": ["body", "test"],
   "Elision": [],
   "EmptyStatement": [],
-  "ExportAllDeclaration": ["exported", "source", "phase", "attributes", "exportKind"],
+  "ExportAllDeclaration": [
+    "exported",
+    "exportsFilter",
+    "source",
+    "phase",
+    "attributes",
+    "exportKind"
+  ],
   "ExportDefaultDeclaration": ["declaration", "exportKind"],
   "ExportNamedDeclaration": [
     "declaration",
@@ -112,7 +119,7 @@
   "ImportDeclaration": ["specifiers", "source", "phase", "attributes", "importKind"],
   "ImportDefaultSpecifier": ["local"],
   "ImportExpression": ["source", "options", "phase"],
-  "ImportNamespaceSpecifier": ["local"],
+  "ImportNamespaceSpecifier": ["exportsFilter", "local"],
   "ImportSpecifier": ["imported", "local", "importKind"],
   "JSXAttribute": ["name", "value"],
   "JSXClosingElement": ["name"],

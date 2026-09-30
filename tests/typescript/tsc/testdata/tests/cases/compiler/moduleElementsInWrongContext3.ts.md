@@ -237,6 +237,7 @@ __ESTREE_TEST__:AST:
               {
                 "type": "ExportAllDeclaration",
                 "exported": null,
+                "exportsFilter": null,
                 "source": {
                   "type": "Literal",
                   "value": "ambient",
@@ -469,6 +470,7 @@ __ESTREE_TEST__:AST:
                 "specifiers": [
                   {
                     "type": "ImportNamespaceSpecifier",
+                    "exportsFilter": null,
                     "local": {
                       "type": "Identifier",
                       "decorators": [],

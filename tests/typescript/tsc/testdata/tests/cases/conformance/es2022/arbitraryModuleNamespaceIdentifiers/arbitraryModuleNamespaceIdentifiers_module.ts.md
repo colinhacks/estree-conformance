@@ -301,6 +301,7 @@ __ESTREE_TEST__:AST:
         "start": 458,
         "end": 463
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./arbitraryModuleNamespaceIdentifiers_module",
@@ -776,6 +777,7 @@ __ESTREE_TEST__:AST:
         "start": 1214,
         "end": 1219
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./arbitraryModuleNamespaceIdentifiers_module",

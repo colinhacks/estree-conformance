@@ -182,6 +182,7 @@ __ESTREE_TEST__:AST:
         "start": 12,
         "end": 19
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./three",

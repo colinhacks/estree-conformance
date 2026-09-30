@@ -4,6 +4,7 @@
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./namespace-import-star-as-and-export-1_FIXTURE.js",
@@ -19,6 +20,7 @@
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./namespace-import-star-as-and-export-2_FIXTURE.js",

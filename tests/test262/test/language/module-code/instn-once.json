@@ -36,6 +36,7 @@
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "ns1",
@@ -131,6 +132,7 @@
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./instn-once.js",
@@ -151,6 +153,7 @@
         "start": 1166,
         "end": 1169
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./instn-once.js",
@@ -179,6 +182,7 @@
         },
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "ns",

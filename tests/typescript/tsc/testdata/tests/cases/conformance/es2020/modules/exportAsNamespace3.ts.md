@@ -185,6 +185,7 @@ __ESTREE_TEST__:AST:
         "start": 12,
         "end": 14
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./0",
@@ -637,6 +638,7 @@ __ESTREE_TEST__:AST:
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "decorators": [],

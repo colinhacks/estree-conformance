@@ -6,6 +6,7 @@
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "self1",
@@ -33,6 +34,7 @@
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "self2",
@@ -60,6 +62,7 @@
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "other1",
@@ -87,6 +90,7 @@
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "self3",
@@ -114,6 +118,7 @@
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "other2",

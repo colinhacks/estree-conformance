@@ -4,6 +4,7 @@
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./import-and-export-propagates-binding_export-from_FIXTURE.js",
@@ -19,6 +20,7 @@
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./import-and-export-propagates-binding_import-and-export_FIXTURE.js",

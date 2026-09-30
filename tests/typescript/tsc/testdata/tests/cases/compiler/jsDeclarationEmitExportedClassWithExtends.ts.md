@@ -6,6 +6,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "lit-element/lit-element.js",
@@ -69,6 +70,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./lit-element.js",

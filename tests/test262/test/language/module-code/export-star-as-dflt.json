@@ -9,6 +9,7 @@
         "start": 734,
         "end": 741
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./export-star-as-dflt_FIXTURE.js",
@@ -86,6 +87,7 @@
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "ns",

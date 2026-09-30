@@ -496,6 +496,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./register",
@@ -512,6 +513,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./data1",
@@ -536,6 +538,7 @@ __ESTREE_TEST__:AST:
         "start": 65,
         "end": 72
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./data1",

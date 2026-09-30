@@ -408,6 +408,7 @@ __ESTREE_TEST__:AST:
         "start": 12,
         "end": 15
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./component.html",

@@ -304,6 +304,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./0",
@@ -350,6 +351,7 @@ __ESTREE_TEST__:AST:
         "start": 146,
         "end": 148
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./0",

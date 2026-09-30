@@ -29,6 +29,7 @@ const fieldOrders = JSON.parse(fieldOrdersJson) as Record<string, string[]>;
 // * Sort RegExp `Literal`s' `regex.flags` property in alphabetical order, the way V8 does.
 // * Add `phase` field to `ImportDeclaration`, `ImportExpression`, `ExportNamedDeclaration`,
 //   and `ExportAllDeclaration`.
+// * Add `exportsFilter` field to `ImportNamespaceSpecifier` and `ExportAllDeclaration`.
 // * Add `decorators` field to classes, class methods, and class properties.
 export function transformerAcorn(_key: string, value: unknown): unknown {
   if (typeof value === "bigint") return null;
@@ -37,6 +38,9 @@ export function transformerAcorn(_key: string, value: unknown): unknown {
   if (!isAstNode(value)) return value;
 
   const { type } = value;
+  if (type === "ImportNamespaceSpecifier" || type === "ExportAllDeclaration") {
+    if (!Object.hasOwn(value, "exportsFilter")) value.exportsFilter = null;
+  }
   if (
     type === "ImportDeclaration" ||
     type === "ImportExpression" ||
@@ -95,6 +99,9 @@ export function transformerTs(_key: string, value: unknown): unknown {
   if (!isAstNode(value)) return value;
 
   const { type } = value;
+  if (type === "ImportNamespaceSpecifier" || type === "ExportAllDeclaration") {
+    if (!Object.hasOwn(value, "exportsFilter")) value.exportsFilter = null;
+  }
   if (
     type === "ImportDeclaration" ||
     type === "ImportExpression" ||

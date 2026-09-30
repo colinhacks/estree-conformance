@@ -6,6 +6,7 @@
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "nsEager",
@@ -33,6 +34,7 @@
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "nsDeferred1",
@@ -60,6 +62,7 @@
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "nsDeferred2",

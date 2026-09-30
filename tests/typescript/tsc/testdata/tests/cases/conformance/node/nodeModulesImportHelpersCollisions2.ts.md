@@ -6,6 +6,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "fs",
@@ -30,6 +31,7 @@ __ESTREE_TEST__:AST:
         "start": 51,
         "end": 53
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "fs",
@@ -135,6 +137,7 @@ __ESTREE_TEST__:AST:
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "fs",
@@ -159,6 +162,7 @@ __ESTREE_TEST__:AST:
         "start": 51,
         "end": 53
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "fs",

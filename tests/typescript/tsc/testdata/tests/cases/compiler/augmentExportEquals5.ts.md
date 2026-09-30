@@ -3375,6 +3375,7 @@ __ESTREE_TEST__:AST:
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "decorators": [],

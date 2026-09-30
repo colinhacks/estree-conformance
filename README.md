@@ -36,6 +36,9 @@ and `PropertyDefinition` (stage 3 proposal).
 A `phase` field is added to `ImportDeclaration` and `ImportExpression` (stage 3 proposal),
 and to `ExportNamedDeclaration` and `ExportAllDeclaration` (deferred re-exports proposal).
 
+An `exportsFilter` field is added to `ImportNamespaceSpecifier` and `ExportAllDeclaration`
+(deferred re-exports proposal).
+
 A non-standard `hashbang` field is added to `Program`.
 
 ## Maintenance

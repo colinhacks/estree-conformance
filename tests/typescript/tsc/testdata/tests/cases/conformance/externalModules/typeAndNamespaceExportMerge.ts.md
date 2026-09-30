@@ -242,6 +242,7 @@ __ESTREE_TEST__:AST:
         "start": 39,
         "end": 44
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./constants",

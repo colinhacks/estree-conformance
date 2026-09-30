@@ -119,6 +119,7 @@
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./import-attribute-3_FIXTURE.js",

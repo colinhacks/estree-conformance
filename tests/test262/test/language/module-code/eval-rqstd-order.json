@@ -101,6 +101,7 @@
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "ns1",
@@ -196,6 +197,7 @@
     {
       "type": "ExportAllDeclaration",
       "exported": null,
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./eval-rqstd-order-7_FIXTURE.js",
@@ -224,6 +226,7 @@
         },
         {
           "type": "ImportNamespaceSpecifier",
+          "exportsFilter": null,
           "local": {
             "type": "Identifier",
             "name": "ns2",
@@ -254,6 +257,7 @@
         "start": 1217,
         "end": 1220
       },
+      "exportsFilter": null,
       "source": {
         "type": "Literal",
         "value": "./eval-rqstd-order-9_FIXTURE.js",
